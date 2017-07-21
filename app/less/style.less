@@ -1,0 +1,153 @@
+
+/*-----------------*/
+
+
+/* Цвета */
+
+
+/*-----------------*/
+
+@yellow: #f2eb56;
+@yellow--light: #fcf887;
+@green: #b0c9bb;
+
+/*-----------------*/
+
+
+/* Глобальное */
+
+
+/*-----------------*/
+
+.clearfix {
+    &:after {
+        content: '';
+        display: block;
+        clear: both;
+    }
+}
+
+.caps {
+    text-transform: uppercase;
+}
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background: #ccc;
+    font-size: 14px;
+    line-height: 1.2;
+    position: relative;
+}
+
+img {
+    border: none;
+}
+
+a {}
+
+a:hover {}
+
+a:active {}
+
+a:focus {}
+
+button,
+select {
+    &:active {
+        outline: none;
+    }
+    &:focus {
+        outline: none;
+    }
+}
+
+input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.ham-bar {
+    display: block;
+    width: 19px;
+    height: 2px;
+    background-color: #fff;
+    margin-bottom: 3px;
+    position: relative;
+    left: 0;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: .2s ease-in-out;
+    -moz-transition: .2s ease-in-out;
+    -o-transition: .2s ease-in-out;
+    transition: .2s ease-in-out;
+}
+
+.ham-bar:nth-child(1) {
+    width: 19px;
+    -webkit-transform-origin: left center;
+    -moz-transform-origin: left center;
+    -o-transform-origin: left center;
+    transform-origin: left center;
+}
+
+.ham-bar:nth-child(2) {
+    width: 19px;
+    -webkit-transform-origin: left center;
+    -moz-transform-origin: left center;
+    -o-transform-origin: left center;
+    transform-origin: left center;
+}
+
+.ham-bar:nth-child(3) {
+    width: 19px;
+    -webkit-transform-origin: left center;
+    -moz-transform-origin: left center;
+    -o-transform-origin: left center;
+    transform-origin: left center;
+}
+
+.ham-bar.open:nth-child(1) {
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    position: relative;
+    top: -1px;
+    left: 2px;
+}
+
+.ham-bar.open:nth-child(2) {
+    width: 0%;
+    opacity: 0;
+}
+
+.ham-bar.open:nth-child(3) {
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    position: relative;
+    top: 2px;
+    left: 2px;
+}
+
+/* Шрифты */
+
+
+/*-----------------*/
+
+
+/* Media */
+
+
+/*-----------------*/
+
+@media (max-width: 320px) {}
+
+// -- 320px
