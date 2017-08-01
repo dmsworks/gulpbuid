@@ -1,5 +1,5 @@
 $(document).ready(function () {
 
-    console.log('Script is running!');
+    console.log('Script is running!!');
 
 });
